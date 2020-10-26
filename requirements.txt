@@ -1,9 +1,0 @@
-djangorestframework==3.11.0
-Django==3.1.2
-Pygments==2.6.1
-coreapi==2.3.3
-psycopg2-binary==2.8.4
-dj-database-url==0.5.0
-gunicorn==20.0.4
-whitenoise==5.0.1
-PyYAML==5.3.1
