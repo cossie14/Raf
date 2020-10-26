@@ -13,8 +13,9 @@ schema_view = get_schema_view(title='Pastebin API')
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
+    path('schema/', schema_view),
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
-    path('schema/', schema_view),
+     
     
-]
+ ]
